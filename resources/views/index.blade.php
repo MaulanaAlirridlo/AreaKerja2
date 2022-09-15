@@ -1,8 +1,10 @@
 @extends('layouts.master')
+<<<<<<< Updated upstream
 
 @section('title', 'Tempat Cari Kerja')
 
 @section('content')
+  @include('layouts.header')
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam dolores voluptatum nostrum? Totam, amet. Fugit inventore ex, in accusamus dolores, nemo quos incidunt similique consequatur nostrum facilis quasi vel illum!
   Repellendus nam totam sed aliquam odit. Ea ut deleniti sunt expedita fugit eaque molestias itaque commodi libero laboriosam, blanditiis enim iure perferendis quas tenetur eos quisquam! Perferendis ipsam a tempora!
   Ipsam consequuntur adipisci possimus exercitationem voluptatum saepe cupiditate? Officia illo ipsa quisquam consequuntur rerum, aliquam quaerat maiores? Iusto aliquam necessitatibus voluptate! Odit sequi, repudiandae voluptates labore doloribus nostrum facilis et.
