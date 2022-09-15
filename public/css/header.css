@@ -1,0 +1,97 @@
+:root{
+    /* color */
+    --primaryColor : #ff6e07;
+    --secondaryColor : #918181;
+    --mainFont : 'Open Sans', sans-serif;
+    --headingFont :'Merriweather Sans', sans-serif;
+
+}
+*{
+    box-sizing: border-box !important;
+}
+body{
+    font-family: var(--mainFont);
+}
+.heading{
+    font-family: var(--headingFont);
+    font-size: 24px;
+    font-weight: 700;
+}
+.subheadingsatu {
+    font-weight: 700;
+
+}
+.subheadingdua {
+    font-weight: 700;
+    color: var(--primaryColor);
+}
+.navbar-brand{
+    font-family: var(--headingFont);
+    font-weight: 900;
+
+}
+.navbar{
+    background-color: white;
+}
+.navbar-brand span{
+    color: var(--secondaryColor);
+}
+.nav-link{
+    font-family: var(--headingFont);
+}
+.nav-link.active{
+    font-weight: 700;
+    color: var(--primaryColor) !important;
+}
+.icons-home i{
+    font-size: 1.8rem;
+    color: var(--secondaryColor);
+}
+/* Home */
+.home{
+    background-color: white;
+    height: 650px;
+    padding-top: 10rem;
+}
+.home .heading{
+    color: var(--secondaryColor);
+}
+.btn-home .btn-daftar{
+    background-color: var(--primaryColor);
+    font-family: var(--headingFont);
+    font-weight: 700;
+    width: 200px;
+}
+.btn-home .btn-daftar:hover{
+    background-color: #f36518;
+}
+
+@media screen and (min-width: 768px) {
+    .home{
+        padding-top: 14rem;
+    }
+    .home .heading{
+        font-size: 36px;
+}
+}
+@media screen and(min-width: 992px) {
+    .home .content-left{
+        padding-bottom: 40px;
+    }
+    .home .heading{
+        font-size: 46px;
+    }
+    .home .subheadingdua{
+        font-size: 20px;
+    }
+    .home .subheadingsatu{
+        font-size: 20px;
+    }
+    .home img{
+        right: 0;
+        top: -10%;
+    }
+}
+.nav-link:hover{
+    color: var(--primaryColor) !important;
+}
