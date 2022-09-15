@@ -10857,3 +10857,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+:root {
+  --main: #fe7b54;
+}
+
+.pb-6 {
+  padding-bottom: 3.5rem;
+}
+
+.pb-7 {
+  padding-bottom: 4rem;
+}

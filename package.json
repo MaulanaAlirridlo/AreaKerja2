@@ -22,6 +22,7 @@
     },
     "dependencies": {
         "aos": "^2.3.4",
-        "jquery": "^3.6.1"
+        "jquery": "^3.6.1",
+        "owl.carousel2": "^2.2.2"
     }
 }

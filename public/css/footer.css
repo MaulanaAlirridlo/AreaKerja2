@@ -1,0 +1,50 @@
+.footer {
+  font-family: 'Rubik', sans-serif;
+}
+
+.footer h6 {
+  font-weight: 600;
+}
+
+.footer a {
+  color : black;
+  text-decoration: none;
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+.footer p {
+  margin-bottom: 0.3rem;
+}
+
+.footer .logo img {
+  width: 60px;
+}
+
+.footer a i {
+  opacity: 0.5;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.footer a i:hover {
+  opacity: 1;
+}
+
+.footer .btn {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  background-color: var(--main);
+  width: 30px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .btn i {
+  opacity: 0.5;
+  color: white;
+}
