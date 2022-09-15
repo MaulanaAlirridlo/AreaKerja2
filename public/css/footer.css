@@ -44,7 +44,15 @@
   align-items: center;
 }
 
+.footer .btn:hover{
+  background-color: var(--main-hover);
+}
+
 .footer .btn i {
-  opacity: 0.5;
+  opacity: 0.8;
   color: white;
+}
+
+.footer .btn:hover i {
+  opacity: 1;
 }

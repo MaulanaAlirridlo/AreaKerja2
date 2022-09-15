@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="{{asset('css/app.css')}}">
   <link rel="stylesheet" href="{{asset('css/footer.css')}}">
+  <link rel="shortcut icon" href="{{asset('img/logo.png')}}" type="image/x-icon">
   @yield('css')
   <!-- google font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
