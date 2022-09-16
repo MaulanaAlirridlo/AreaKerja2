@@ -17,7 +17,9 @@
 
 <body>
   @yield('content')
+  <script src="{{ asset('js/app.js') }}" defer></script>
   <script src="https://kit.fontawesome.com/d770eb273a.js" crossorigin="anonymous"></script>
+  @yield('js')
 </body>
 
 </html>
