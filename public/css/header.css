@@ -33,9 +33,9 @@ body{
 .navbar{
     background-color: white;
 }
-/* .fixed-top {
+.fixed-top {
     position: relative;
-} */
+}
 .navbar-brand span{
     color: var(--secondaryColor);
 }
