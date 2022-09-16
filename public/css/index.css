@@ -1,3 +1,72 @@
+.icons-home i{
+  font-size: 1.8rem;
+  color: var(--secondaryColor);
+}
+/* Home */
+.home{
+  height: 650px;
+  padding-top: 11rem;
+}
+.home .heading{
+  color: var(--secondaryColor);
+}
+.home img {
+  position: relative;
+}
+.btn-home .btn-daftar{
+  background-color: var(--primaryColor);
+  font-family: var(--headingFont);
+  font-weight: 700;
+  width: 200px;
+}
+.btn-home .btn-daftar:hover{
+  background-color: #f36518;
+}
+
 .rekomendasi-lowongan img {
   width: 200px; 
+}
+
+@media screen and (min-width: 768px) {
+  .home{
+      /* padding-top: 14rem; */
+  }
+  .home .heading{
+      /* font-size: 36px; */
+}
+}
+@media screen and (min-width: 992px) {
+  /* .home .content-left{
+      padding-bottom: 40px;
+  }
+  .home .heading{
+      font-size: 46px;
+  }
+  .home .subheadingdua{
+      font-size: 20px;
+  }
+  .home .subheadingsatu{
+      font-size: 20px;
+  } */
+  /* .home img{
+    top: 0%;
+  } */
+}
+
+@media screen and (min-width: 1200px) {
+  /* .home .content-left{
+      padding-bottom: 40px;
+  }
+  .home .heading{
+      font-size: 46px;
+  }
+  .home .subheadingdua{
+      font-size: 20px;
+  }
+  .home .subheadingsatu{
+      font-size: 20px;
+  } */
+  .home img{
+    top: -15%;
+  }
 }

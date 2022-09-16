@@ -2,6 +2,8 @@
 
 @section('css')
   <link rel="stylesheet" href="{{asset('css/index.css')}}">
+  <link rel="stylesheet" href="{{asset('css/header.css')}}">
+  <link rel="stylesheet" href="{{asset('css/footer.css')}}">
 @endsection
 
 @section('title', 'Tempat Cari Kerja')
@@ -12,7 +14,7 @@
   <section class="home" id="home">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-5 text-center text-lg-start">
                 <p class="subheadingdua"> Tempat Mencari Kerja</p>
                 <h1 class="heading text-black">Temukan Loker Jogja</h1>
                 <h1 class="heading text-black">Terbaru Dengan Mudah</h1>
@@ -21,8 +23,8 @@
                     <a href="#" class="btn btn-daftar text-white">Ayo Cari Kerja <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6">
-                <img src="{{asset('img/kerja.png')}}" alt="" class="img-fluid">
+            <div class="col-lg">
+                <img src="{{asset('img/kerja.png')}}" alt="" class="img-fluid d-none d-lg-block">
             </div>
         </div>
     </div>
