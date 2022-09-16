@@ -33,9 +33,9 @@ body{
 .navbar{
     background-color: white;
 }
-.fixed-top {
+/* .fixed-top {
     position: relative;
-}
+} */
 .navbar-brand span{
     color: var(--secondaryColor);
 }
@@ -48,4 +48,8 @@ body{
 }
 .nav-link:hover{
     color: var(--primaryColor) !important;
+}
+#garis{
+    position: absolute;
+    width: 85%;
 }
