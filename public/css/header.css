@@ -94,4 +94,26 @@ body{
 }
 .nav-link:hover{
     color: var(--primaryColor) !important;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+/* Benefit */
+/* .berita-container {
+    width: 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    gap: 5px;
+    grid-auto-rows: 200px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.besar {
+    grid-column-start: 3;
+}
+
+.lebar {
+    grid-row-start: 2;
+}
+ */
+>>>>>>> Stashed changes
