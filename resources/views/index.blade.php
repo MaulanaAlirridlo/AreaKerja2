@@ -30,7 +30,7 @@
   </div>
 </section>
   
-<section class="benefit" id="benefit">
+<section class="benefit d-none d-lg-block" id="benefit">
   <div class="container">
     <img class="w-100" src="{{ asset('img/garis.svg')}}" alt="">
   </div>
