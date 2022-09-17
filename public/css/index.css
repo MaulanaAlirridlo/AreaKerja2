@@ -105,6 +105,55 @@
   filter: blur(7px);
 }
 
+.panjang{
+    height: 300px;
+}
+
+.kecil{
+    height: 350px;
+}
+
+.kecil2{
+  height: 350px;
+  top: -25px;
+}
+
+.loker{
+  height: 450px;
+}
+
+.bt{
+  float: right;
+}
+
+.boxloker{
+  height: 150px; ;
+  width: 300px;
+  right: 0;
+  left: 0;
+  bottom: -100px;
+  position: absolute;
+}
+
+.label{
+  top: -16px;
+  right: -10px;
+  position: relative;
+}
+
+.btloker{
+  margin-top: 130px;
+  height: 30px;
+  width: 280px;
+  left: 0;
+  right: 0;
+ }
+ 
+.benefit{
+  background-color: white;
+  height: 650px;
+  padding-top: 10rem;
+}
 
 @media screen and (min-width: 768px) {
   .home{
@@ -112,8 +161,9 @@
   }
   .home .heading{
       /* font-size: 36px; */
+  }
 }
-}
+
 @media screen and (min-width: 992px) {
   /* .home .content-left{
       padding-bottom: 40px;
@@ -148,9 +198,4 @@
   .home img{
     top: -20%;
   }
-}
-.benefit{
-  background-color: white;
-  height: 650px;
-  padding-top: 10rem;
 }
