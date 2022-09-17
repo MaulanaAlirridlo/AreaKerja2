@@ -1,6 +1,3 @@
-@section('css')
-<link rel="stylesheet" href="{{asset('css/header.css')}}">
-@endsection
 <header>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 border-bottom">
         <div class="container">
