@@ -180,6 +180,10 @@
       </div>
     </div>
   </section>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+  @include('layouts.tentang')
 >>>>>>> Stashed changes
 
   @include('layouts.footer')
