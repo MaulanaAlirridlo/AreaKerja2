@@ -4,7 +4,7 @@
 }
 /* Home */
 .home{
-  height: 650px;
+  height: 600px;
   padding-top: 11rem;
 }
 .home .heading{
@@ -147,12 +147,11 @@
   width: 280px;
   left: 0;
   right: 0;
- }
- 
+}
+
 .benefit{
-  background-color: white;
-  height: 650px;
-  padding-top: 10rem;
+  /* background-color: white; */
+  margin-bottom: 6rem;
 }
 
 @media screen and (min-width: 768px) {
