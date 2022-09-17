@@ -1,0 +1,55 @@
+:root{
+    /* color */
+    --primaryColor : #ff6e07;
+    --secondaryColor : #918181;
+    --mainFont : 'Open Sans', sans-serif;
+    --headingFont :'Merriweather Sans', sans-serif;
+
+}
+*{
+    box-sizing: border-box !important;
+}
+body{
+    font-family: var(--mainFont);
+}
+.heading{
+    font-family: var(--headingFont);
+    font-size: 36px;
+    font-weight: 700;
+}
+.subheadingsatu {
+    font-weight: 700;
+
+}
+.subheadingdua {
+    font-weight: 700;
+    color: var(--primaryColor);
+}
+.navbar-brand{
+    font-family: var(--headingFont);
+    font-weight: 900;
+
+}
+.navbar{
+    background-color: white;
+}
+.fixed-top {
+    position: relative;
+}
+.navbar-brand span{
+    color: var(--secondaryColor);
+}
+.nav-link{
+    font-family: var(--headingFont);
+}
+.nav-link.active{
+    font-weight: 700;
+    color: var(--primaryColor) !important;
+}
+.nav-link:hover{
+    color: var(--primaryColor) !important;
+}
+#garis{
+    position: absolute;
+    width: 85%;
+}
