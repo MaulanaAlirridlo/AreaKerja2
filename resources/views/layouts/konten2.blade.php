@@ -170,13 +170,30 @@
       </div>
       <div class="row btloker mx-auto">
         <a href="#" class="btn float-end border" style="background-color:#ffffff;">
-        <p class="card-text  ms-2">Lokasi lowongan kerja lainnya...</p>
-      </a>
-        </div>
+          <p class="card-text  ms-2">Lokasi lowongan kerja lainnya...</p>
+        </a>
       </div>
     </div>
   </div>
 
+  <div class="container">
+    <div class="row cardinfo">
+      <div class="card posisi" style="background-color:#FFF0E2 ;">
+        <div class="card-body posisi">
+          <h3 class="fw-bold ms-5">Berlangganan untuk mendapatkan informasi</h3>
+          <h3 class="fw-bold ms-5 ">dan lowongan kerja terbaru
+            <div class="card-body search float-end">
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Enter email address" aria-describedby="button">
+                <button class="btn warna ms-2" type="button" id="button-subcribe" style="background-color:#FF9637 ;">Subcribe</button>
+              </div>
+            </div>
+          </h3>
+        </div>
+        <img src="{{asset('img/kerang.svg')}}" alt="" class="image2">
+      </div>
+      <img src="{{asset('img/goresan.svg')}}" alt="" class="image1">
+    </div>
   </div>
   <script src="https://kit.fontawesome.com/d770eb273a.js" crossorigin="anonymous"></script>
 </body>

@@ -107,10 +107,98 @@
   position: relative;
 }
 
+.cardinfo{
+  height: 200px;
+}
+
 .btloker{
   margin-top: 130px;
   height: 30px;
   width: 280px;
   left: 0;
   right: 0;
+<<<<<<< Updated upstream
+=======
+}
+
+.posisi{
+margin-top: 20px;
+}
+
+.search{
+  height: 30px;
+  width: 400px;
+}
+
+.warna{
+  color: white;
+}
+
+.image1{
+  height: 150px;
+  width: 250px;
+  margin-top: -40px;
+  margin-left: -80px;
+  position: absolute;
+}
+
+.image2{
+  height: 100px;
+  width: 200px;
+  bottom: -40px;
+  right: -80px;
+  position: absolute; 
+}
+
+
+.benefit{
+  background-color: white;
+  height: 650px;
+  padding-top: 10rem;
+}
+
+@media screen and (min-width: 768px) {
+  .home{
+      /* padding-top: 14rem; */
+  }
+  .home .heading{
+      /* font-size: 36px; */
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* .home .content-left{
+      padding-bottom: 40px;
+  }
+  .home .heading{
+      font-size: 46px;
+  }
+  .home .subheadingdua{
+      font-size: 20px;
+  }
+  .home .subheadingsatu{
+      font-size: 20px;
+  } */
+  /* .home img{
+    top: 0%;
+  } */
+}
+
+@media screen and (min-width: 1200px) {
+  /* .home .content-left{
+      padding-bottom: 40px;
+  }
+  .home .heading{
+      font-size: 46px;
+  }
+  .home .subheadingdua{
+      font-size: 20px;
+  }
+  .home .subheadingsatu{
+      font-size: 20px;
+  } */
+  .home img{
+    top: -20%;
+  }
+>>>>>>> Stashed changes
 }
