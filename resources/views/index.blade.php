@@ -150,6 +150,7 @@
       </div>
     </div>
   </section>
+  @include('layouts.tentang')
 
   @include('layouts.footer')
 @endsection

@@ -152,7 +152,7 @@
   left: 0;
   right: 0;
 }
-  
+
 .posisi{
   margin-top: 20px;
 }
@@ -230,4 +230,28 @@
   .home img{
     top: -20%;
   }
+  
+  /* Home */
+.tentang{
+  height: 900px;
+  padding-top: 100px;
+}
+.tentang img{
+  top: 10%;
+  right: -10%;
+}
+.tentang .heading{
+  color: var(--secondaryColor);
+}
+.tentang img {
+  position: relative;
+}
+.btn-home .btn-daftar{
+  background-color: var(--primaryColor);
+  font-family: var(--headingFont);
+  font-weight: 700;
+  width: 200px;
+}
+.btn-home .btn-daftar:hover{
+  background-color: #f36518;
 }
