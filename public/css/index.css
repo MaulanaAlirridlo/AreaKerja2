@@ -141,12 +141,45 @@
   position: relative;
 }
 
+.cardinfo{
+  height: 200px;
+}
+
 .btloker{
   margin-top: 130px;
   height: 30px;
   width: 280px;
   left: 0;
   right: 0;
+}
+
+.posisi{
+  margin-top: 20px;
+}
+
+.search{
+  height: 30px;
+  width: 400px;
+}
+
+.warna{
+  color: white;
+}
+
+.image1{
+  height: 150px;
+  width: 250px;
+  margin-top: -40px;
+  margin-left: -80px;
+  position: absolute;
+}
+
+.image2{
+  height: 100px;
+  width: 200px;
+  bottom: -40px;
+  right: -80px;
+  position: absolute; 
 }
 
 .benefit{
@@ -197,6 +230,7 @@
   .home img{
     top: -20%;
   }
+  
   /* Home */
 .tentang{
   height: 900px;
@@ -220,5 +254,4 @@
 }
 .btn-home .btn-daftar:hover{
   background-color: #f36518;
-}
 }
