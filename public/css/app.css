@@ -10859,6 +10859,7 @@ textarea.form-control-lg {
 }
 :root {
   --main: #fe7b54;
+  --main-shadow: #fe7c54aa;
   --main-hover: #df5c34;
 }
 
@@ -10868,4 +10869,8 @@ textarea.form-control-lg {
 
 .pb-7 {
   padding-bottom: 4rem;
+}
+
+.w-80px {
+  width: 80px;
 }
