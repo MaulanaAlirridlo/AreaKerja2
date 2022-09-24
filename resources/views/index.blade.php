@@ -68,6 +68,7 @@
             </div>
           </div>
         </div>
+        
         <div class="col">
           <div class="wrapper shadow p-3 rounded m-auto overflow-hidden position-relative">
             <div class="non-hover">
@@ -150,7 +151,6 @@
       </div>
     </div>
   </section>
-  @include('layouts.tentang')
 
   @include('layouts.footer')
 @endsection
