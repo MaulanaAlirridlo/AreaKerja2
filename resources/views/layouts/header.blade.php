@@ -8,7 +8,7 @@
             <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav me-lg-5">
                     <a class="nav-link mt-2 mt-lg-0 active me-lg-5 btn border-0" href="#">Home</a>
-                    <a class="nav-link mt-2 mt-lg-0 me-lg-4 btn" href="#">Tips Kerja</a>
+                    <a class="nav-link mt-2 mt-lg-0 me-lg-4 btn" href="/artikel">Tips Kerja</a>
                     <a class="nav-link mt-2 mt-lg-0 me-lg-4 btn border" href="#">Daftar Sebagai Kandidat</a>
                     <a class="nav-link mt-2 mt-lg-0 me-lg-4 btn border" href="#">Pasang Lowongan</a>
                     <a class="nav-link mt-2 mt-lg-0 me-lg-4 btn border" style="background-color:#ff6e07; color:white;" href="#">Pasang Lowongan</a>
