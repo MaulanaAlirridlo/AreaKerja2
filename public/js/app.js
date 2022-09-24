@@ -992,7 +992,11 @@ eval("\n\nvar bind = __webpack_require__(/*! ./helpers/bind */ \"./node_modules/
   \*****************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
+<<<<<<< Updated upstream
 eval("__webpack_require__(/*! ./bootstrap */ \"./resources/js/bootstrap.js\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvanMvYXBwLmpzLmpzIiwibWFwcGluZ3MiOiJBQUFBQSxtQkFBTyxDQUFDLGdEQUFELENBQVAiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvYXBwLmpzP2NlZDYiXSwic291cmNlc0NvbnRlbnQiOlsicmVxdWlyZSgnLi9ib290c3RyYXAnKTtcbiJdLCJuYW1lcyI6WyJyZXF1aXJlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/js/app.js\n");
+=======
+eval("__webpack_require__(/*! ./bootstrap */ \"./resources/js/bootstrap.js\");\n\n$('.hover').hover(function () {\n  $(this).prev().addClass(\"blur\");\n}, function () {\n  $(this).prev().removeClass(\"blur\");\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvanMvYXBwLmpzLmpzIiwibWFwcGluZ3MiOiJBQUFBQSxtQkFBTyxDQUFDLGdEQUFELENBQVA7O0FBRUFDLENBQUMsQ0FBQyxRQUFELENBQUQsQ0FBWUMsS0FBWixDQUNFLFlBQVc7RUFDVEQsQ0FBQyxDQUFDLElBQUQsQ0FBRCxDQUFRRSxJQUFSLEdBQWVDLFFBQWYsQ0FBeUIsTUFBekI7QUFDRCxDQUhILEVBR0ssWUFBVztFQUNaSCxDQUFDLENBQUMsSUFBRCxDQUFELENBQVFFLElBQVIsR0FBZUUsV0FBZixDQUE0QixNQUE1QjtBQUNELENBTEgiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvYXBwLmpzP2NlZDYiXSwic291cmNlc0NvbnRlbnQiOlsicmVxdWlyZSgnLi9ib290c3RyYXAnKTtcclxuXHJcbiQoJy5ob3ZlcicpLmhvdmVyKFxyXG4gIGZ1bmN0aW9uKCkge1xyXG4gICAgJCh0aGlzKS5wcmV2KCkuYWRkQ2xhc3MoIFwiYmx1clwiICk7XHJcbiAgfSwgZnVuY3Rpb24oKSB7XHJcbiAgICAkKHRoaXMpLnByZXYoKS5yZW1vdmVDbGFzcyggXCJibHVyXCIgKTtcclxuICB9XHJcbik7Il0sIm5hbWVzIjpbInJlcXVpcmUiLCIkIiwiaG92ZXIiLCJwcmV2IiwiYWRkQ2xhc3MiLCJyZW1vdmVDbGFzcyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./resources/js/app.js\n");
+>>>>>>> Stashed changes
 
 /***/ }),
 
