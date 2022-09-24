@@ -13,7 +13,7 @@
                         </div>
                         <div class="col-4 mt-5">
                             <div class="card" style="width: 18rem; border-color:#20f1e3 ;">
-                            <div class="border" style="width: 40px; background-color: #a618f3; color: white;">01</div>
+                            <div class="border" style="width: 40px; background-color: #a618f3; color: white; position: absolute; right: 0; top: -15px;">01</div>
                                 <div class="card-body">
                                     <h5 class="card-title">
                                         <b> Mencari Lowongan </b></h5>
@@ -26,7 +26,7 @@
                     <div class="row justify-content-center">
                         <div class="col-12 mt-5">
                             <div class="card" style="width: 18rem; border-color:#20f1e3 ;">
-                            <div class="border" style="width: 40px; background-color: #a618f3; color: white;">01</div>
+                            <div class="border" style="width: 40px; background-color: #a618f3; color: white; position: absolute; left: 0; top: -15px;">02</div>
                                 <div class="card-body">
                                     <h5 class="card-title"><b> Mencari Lowongan </b></h5>
                                     <p class="card-text">The sixth course in a program
@@ -40,7 +40,7 @@
                     <div class="row justify-content-end">
                         <div class="col-4 mt-5">
                             <div class="card" style="width: 18rem; border-color:#20f1e3 ;">
-                            <div class="border" style="width: 40px; background-color: #a618f3; color: white;">01</div>
+                            <div class="border" style="width: 40px; background-color: #a618f3; color: white; position: absolute; right: 0; top: -15px;">03</div>
                                 <div class="card-body">
                                     <h5 class="card-title"><b> Mencari Lowongan </b></h5>
                                     <p class="card-text">The sixth course in a program

@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\DaftarkandidatController;
+use App\Http\Controllers\PasangiklanController;
+use App\Http\Controllers\TentangkamiController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +23,13 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+<<<<<<< Updated upstream
+=======
+
+Route::get('/konten2', [App\Http\Controllers\Konten2Controller::class, 'index'])->name('konten2');
+
+Route::get('/listloker', [App\Http\Controllers\ListlokerController::class, 'index'])->name('listloker');
+Route::get('/pasangiklan', [PasangiklanController::class, 'index'])->name('pasangiklan');
+Route::get('/daftarkandidat', [DaftarkandidatController::class, 'index'])->name('daftarkandidat');
+Route::get('/tentangkami', [TentangkamiController::class, 'index'])->name('tentangkami');
+>>>>>>> Stashed changes
