@@ -7,8 +7,6 @@
 <link rel="stylesheet" href="{{asset('css/footer.css')}}">
 @endsection
 
-@section('title', 'Tempat Cari Kerja')
-
 @section('content')
 @include('layouts.header')
 
