@@ -25,12 +25,8 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-<<<<<<< Updated upstream
-Route::get('/konten2', [App\Http\Controllers\Konten2Controller::class, 'index'])->name('konten2');
-=======
 Route::get('/konten2', [App\Http\Controllers\Konten2Controller::class, 'index'])->name('konten2');
 
 Route::get('/listloker', [App\Http\Controllers\ListlokerController::class, 'index'])->name('listloker');
 
 Route::get('/recruitment', [App\Http\Controllers\RecruitmentController::class, 'index'])->name('recruitment');
->>>>>>> Stashed changes
