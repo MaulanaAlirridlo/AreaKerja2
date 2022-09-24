@@ -13,7 +13,7 @@ class ListlokerController extends Controller
      */
     public function index()
     {
-        return view('listloker');
+        return view('layouts.listloker');
     }
 
     /**
