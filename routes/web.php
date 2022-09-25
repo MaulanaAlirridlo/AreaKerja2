@@ -20,11 +20,13 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/artikel', function () {
+    return view('artikel');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-<<<<<<< Updated upstream
-=======
 
 Route::get('/konten2', [App\Http\Controllers\Konten2Controller::class, 'index'])->name('konten2');
 
@@ -32,4 +34,5 @@ Route::get('/listloker', [App\Http\Controllers\ListlokerController::class, 'inde
 Route::get('/pasangiklan', [PasangiklanController::class, 'index'])->name('pasangiklan');
 Route::get('/daftarkandidat', [DaftarkandidatController::class, 'index'])->name('daftarkandidat');
 Route::get('/tentangkami', [TentangkamiController::class, 'index'])->name('tentangkami');
->>>>>>> Stashed changes
+
+Route::get('/recruitment', [App\Http\Controllers\RecruitmentController::class, 'index'])->name('recruitment');

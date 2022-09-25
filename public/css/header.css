@@ -14,7 +14,7 @@ body{
 }
 .heading{
     font-family: var(--headingFont);
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 700;
 }
 .subheadingsatu {
@@ -33,6 +33,9 @@ body{
 .navbar{
     background-color: white;
 }
+.fixed-top {
+    position: relative;
+}
 .navbar-brand span{
     color: var(--secondaryColor);
 }
@@ -43,84 +46,13 @@ body{
     font-weight: 700;
     color: var(--primaryColor) !important;
 }
-.icons-home i{
-    font-size: 1.8rem;
-    color: var(--secondaryColor);
-}
-/* Home */
-.home{
-    background-color: white;
-    height: 650px;
-    padding-top: 10rem;
-}
-.home .heading{
-    color: var(--secondaryColor);
-}
-.btn-home .btn-daftar{
-    background-color: var(--primaryColor);
-    font-family: var(--headingFont);
-    font-weight: 700;
-    width: 200px;
-}
-.btn-home .btn-daftar:hover{
-    background-color: #f36518;
-}
-
-@media screen and (min-width: 768px) {
-    .home{
-        padding-top: 14rem;
-    }
-    .home .heading{
-        font-size: 36px;
-}
-}
-@media screen and(min-width: 992px) {
-    .home .content-left{
-        padding-bottom: 40px;
-    }
-    .home .heading{
-        font-size: 46px;
-    }
-    .home .subheadingdua{
-        font-size: 20px;
-    }
-    .home .subheadingsatu{
-        font-size: 20px;
-    }
-    .home img{
-        right: 0;
-        top: -10%;
-    }
-}
 .nav-link:hover{
     color: var(--primaryColor) !important;
-<<<<<<< Updated upstream
 }
-=======
+#garis{
+    position: absolute;
+    width: 85%;
 }
-
-/* Benefit */
-/* .berita-container {
-    width: 100%;
-    background-repeat: no-repeat;
-    display: grid;
-    gap: 5px;
-    grid-auto-rows: 200px;
-    grid-template-columns: repeat(4, 1fr);
-}
-.besar {
-    grid-column-start: 3;
-}
-
-.lebar {
-    grid-row-start: 2;
-}
-<<<<<<< Updated upstream
- */
->>>>>>> Stashed changes
-=======
-
-
 
 /* .......................................Card CSS......................................... */
   .containerpasang {
@@ -315,4 +247,3 @@ body{
   @media screen and (min-width: 960px) {
   
   }
->>>>>>> Stashed changes

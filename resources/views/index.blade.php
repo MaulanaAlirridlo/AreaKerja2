@@ -1,26 +1,4 @@
 @extends('layouts.master')
-<<<<<<< Updated upstream
-@section('title', 'Tempat Cari Kerja')
-
-@section('content')
-  @include('layouts.header')
-  <!-- Home -->
-<section class="home" id="home">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <p class="subheadingdua"> Tempat Mencari Kerja</p>
-                <h1 class="heading text-black">Temukan Loker Jogja</h1>
-                <h1 class="heading text-black">Terbaru Dengan Mudah</h1>
-                <p class="subheadingsatu">Ayo Cari Lowongan Terbaru</p>
-                <div class="btn-home mt-5 py-2">
-                    <a href="#" class="btn btn-daftar text-white">Ayo Cari Kerja <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <img src="{{asset('img/kerja.png')}}" alt="" class="img-fluid">
-            </div>
-=======
 
 @section('css')
 <link rel="stylesheet" href="{{asset('css/index.css')}}">
@@ -43,26 +21,18 @@
         <p class="subheadingsatu">Ayo Cari Lowongan Terbaru</p>
         <div class="btn-home mt-5 py-2">
           <a href="#" class="btn btn-daftar text-white">Ayo Cari Kerja <i class="fa-solid fa-arrow-right"></i></a>
->>>>>>> Stashed changes
         </div>
       </div>
       <div class="col-lg">
         <img src="{{asset('img/kerja.png')}}" alt="" class="img-fluid d-none d-lg-block">
       </div>
     </div>
-<<<<<<< Updated upstream
-</section>
-=======
   </div>
 </section>
-
-<section class="benefit" id="benefit">
+  
+<section class="benefit d-none d-lg-block" id="benefit">
   <div class="container">
-    <div class="row">
-      <div class="container-fluid" style="background-image: url('{{ asset('img/garis.svg')}}'); background-size: cover; height:500px; background-repeat: no-repeat;">
-        
-      </div>
-    </div>
+    <img class="w-100" src="{{ asset('img/garis.svg')}}" alt="">
   </div>
 </section>
 
@@ -98,6 +68,7 @@
             </div>
           </div>
         </div>
+        
         <div class="col">
           <div class="wrapper shadow p-3 rounded m-auto overflow-hidden position-relative">
             <div class="non-hover">
@@ -180,11 +151,6 @@
       </div>
     </div>
   </section>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
-  @include('layouts.tentang')
->>>>>>> Stashed changes
 
   @include('layouts.footer')
 @endsection

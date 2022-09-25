@@ -1,0 +1,36 @@
+.judul, .sub-judul {
+  color: var(--main);
+}
+
+.judul {
+  font-weight: bolder;
+}
+
+.sub-judul {
+  font-weight: bold;
+}
+
+.tips {
+  width: fit-content;
+}
+
+.release {
+  color: var(--main);
+  background-color: #FFF7E4;
+  width: fit-content;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.text {
+  width: 266px;
+}
+
+.tips h3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.desc {
+  color: #797B89;
+}
