@@ -258,4 +258,13 @@
 .btn-home .btn-daftar:hover{
   background-color: #f36518;
 }
+
+.letak{
+  height: 300px; ;
+  width: 200px;
+  right: 0;
+  left: -850px;
+  margin-bottom:0;
+  margin-top: -100px;
+  position: absolute;
 }

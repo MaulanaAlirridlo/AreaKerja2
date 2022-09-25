@@ -36,3 +36,4 @@ Route::get('/daftarkandidat', [DaftarkandidatController::class, 'index'])->name(
 Route::get('/tentangkami', [TentangkamiController::class, 'index'])->name('tentangkami');
 
 Route::get('/recruitment', [App\Http\Controllers\RecruitmentController::class, 'index'])->name('recruitment');
+Route::get('/recruitmentprofil', [App\Http\Controllers\RecruitmentprofilController::class, 'index'])->name('recruitmentprofil');
