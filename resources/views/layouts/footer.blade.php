@@ -80,4 +80,5 @@
       </div>
     </div>
   </div>
+<script src="{{asset('js/wizard.js')}}"></script>
 </footer>
