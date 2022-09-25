@@ -6,8 +6,6 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-<<<<<<< Updated upstream
-=======
 
 :root {
   --main: #fe7b54;
@@ -21,4 +19,20 @@
 .pb-7 {
   padding-bottom: 4rem;
 }
->>>>>>> Stashed changes
+
+:root {
+  --main: #fe7b54;
+  --main-shadow: #fe7c54aa;
+  --main-hover: #df5c34;
+}
+
+.pb-6 {
+  padding-bottom: 3.5rem;
+}
+
+.pb-7 {
+  padding-bottom: 4rem;
+}
+.w-80px {
+  width: 80px;
+}
