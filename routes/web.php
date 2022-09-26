@@ -29,4 +29,7 @@ Route::get('/konten2', [App\Http\Controllers\Konten2Controller::class, 'index'])
 
 Route::get('/listloker', [App\Http\Controllers\ListlokerController::class, 'index'])->name('listloker');
 
+Route::get('/kontak', function () {
+    return view('kontak');
+});
 Route::get('/recruitment', [App\Http\Controllers\RecruitmentController::class, 'index'])->name('recruitment');
