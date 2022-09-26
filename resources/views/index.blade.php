@@ -4,6 +4,8 @@
 <link rel="stylesheet" href="{{asset('css/index.css')}}">
 <link rel="stylesheet" href="{{asset('css/header.css')}}">
 <link rel="stylesheet" href="{{asset('css/footer.css')}}">
+<link rel="stylesheet" href="{{asset('css/wizard.css')}}">
+<link rel="stylesheet" href="/path/to/cdn/bootstrap.min.css" />
 @endsection
 
 @section('title', 'Tempat Cari Kerja')
