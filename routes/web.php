@@ -24,6 +24,10 @@ Route::get('/artikel', function () {
     return view('artikel');
 });
 
+Route::get('/lowongan-pekerjaan/job', function () {
+    return view('jobs');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
