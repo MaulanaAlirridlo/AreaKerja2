@@ -18,20 +18,62 @@
         <div class="row">
             <div class="col-lg-3 text-center text-lg-start" style="margin-top: -200px;">
                 <div class="row">
-                    <img src="{{asset('img/jendela.svg')}}" alt="" class="img-fluid d-none d-lg-block" style="width: 250px; height: 400px; margin-left: 100px; ">
+                    <img src="{{asset('img/jendela.svg')}}" alt="" class="img-rounded" style="margin-left: 100px; margin-top: 100px; padding-bottom: 20px;">
                 </div>
                 <div class="row">
-                    <img src="{{asset('img/tangga.svg')}}" alt="" class="img-fluid d-none d-lg-block" style="width: 250px; margin-left: 100px;">
+                    <img src="{{asset('img/tangga.svg')}}" alt="" class="img-rounded" style="margin-left: 100px;">
                 </div>
             </div>
             <div class="col-lg-3 text-center text-lg-start" style="margin-top: 50px; margin-left: 50px;">
-                <img src="{{asset('img/lepitentang.svg')}}" alt="" class="img-fluid d-none d-lg-block" style="width: 250px;">
+                <img src="{{asset('img/lepitentang.svg')}}" alt="" class="img-rounded" style="margin-top: 50px;">
             </div>
             <div class="col-lg-6 text-center" style="margin-left: -50px;">
-                <p class="subheadingdua"> Tempat Mencari Kerja</p>
-                <h1 class="heading text-black">Temukan Loker Jogja</h1>
-                <h1 class="heading text-black">Terbaru Dengan Mudah</h1>
-                <p class="subheadingsatu">Ayo Cari Lowongan Terbaru</p>
+                <h1 class="heading text-black">Tentang Kami</h1>
+                <p class="subheadingsatu" style="text-align: right;">Areakerja adalah perusahaan berbasis teknologi informasi yang berpusat di Yogyakarta. Perusahaan ini berfokus pada platform untuk mencari lowongan kerja di Daerah Istimewa Yogyakarta</p>
+                <img src="{{asset('img/logo.png')}}" alt="" class="img-fluid d-none d-lg-block" style="width: 500px; right: -100px; top: 50px; opacity: 0.4;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="tentang" id="home">
+    <div class="container" style="padding-top: 11rem;">
+        <div class="row">
+            <div class="row">
+                <h1 class="heading text-black" style="text-align: center;">Yogyakarta</h1>
+                <p class="subheadingsatu" style="text-align: center; width: 750px; margin-left: 280px; padding-top: 20px;">
+                    DIY sebagai salah satu wilayah prestisius di Indonesia yang menyandang sebagai budaya dan pelajar
+                    membuat arus ekonomi dan bisnis di wilayah ini cukup besar. Banyak sekali perusahaan besar, menengah, dan kecil
+                    yang berdiri di wilayah DIY dan terus mengembangkan bisnisnya, Hal ini menuntut banyak dibukanya lowongan
+                    pekerjaan di DIY.
+                </p>
+            </div>
+            <div class="col-lg-6 text-center text-lg-start" style="margin-top: -20px;">
+                <div class="row">
+                    <img src="{{asset('img/tentang1.svg')}}" alt="" class="img-rounded" style="margin-left: 100px; margin-top: 100px; padding-bottom: 20px; width: 150px;">
+                </div>
+                <div class="row-lg-6 text-center text-lg-start" style="margin-left: 160px;">
+                    <h1 class="heading text-black" style="font-size: 20px; text-align: left;">Arus Lowongan</h1>
+                    <p class="subheadingsatu" style="text-align: left;">
+                    Banyaknya arus lowongan pekerjaan di Yogyakarta baik dari perusahaan besar, menengah, dan kecil 
+                    menuntut diperlukannya sebuah media yang berfokus untuk menampung informasi lowongan pekerjaan 
+                    yang ada di Yogyakarta.
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-lg-6 text-center text-lg-start" style="margin-top: -20px;">
+                <div class="row">
+                    <img src="{{asset('img/tentang2.svg')}}" alt="" class="img-rounded" style="margin-left: 100px; margin-top: 100px; padding-bottom: 20px; width: 150px;">
+                </div>
+                <div class="row-lg-6 text-center text-lg-start" style="margin-left: 160px;">
+                    <h1 class="heading text-black" style="font-size: 20px; text-align: left;">Area Kerja</h1>
+                    <p class="subheadingsatu" style="text-align: left;">
+                    Untuk itu Areakerja hadir sebagai platform untuk membantu 
+                    perusahaan mendapatkan kandidat terbaiknya, serta membantu para pencari kerja 
+                    untuk menemukan pekerjaan yanng diinginkan di DIY
+                    </p>
+                </div>
             </div>
         </div>
     </div>

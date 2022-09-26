@@ -4,6 +4,8 @@
 <link rel="stylesheet" href="{{asset('css/index.css')}}">
 <link rel="stylesheet" href="{{asset('css/header.css')}}">
 <link rel="stylesheet" href="{{asset('css/footer.css')}}">
+<link rel="stylesheet" href="{{asset('css/wizard.css')}}">
+<link rel="stylesheet" href="/path/to/cdn/bootstrap.min.css" />
 @endsection
 
 @section('title', 'Tempat Cari Kerja')
@@ -146,7 +148,7 @@
                     <p><strong> PASANG LOWONGAN SEKARANG </strong></p>
                 </div>
             </div>
-            <div class="cardpasang" style="background-color: rgb(200, 140, 80);">
+            <div class="cardpasang" style="background-color: rgb(200, 140, 80); color: white;">
                 <div class="head-cardpasang">
                     <h1><strong> BRONZE </strong></h1>
                 </div>
