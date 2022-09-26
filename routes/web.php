@@ -24,6 +24,10 @@ Route::get('/artikel', function () {
     return view('artikel');
 });
 
+Route::get('/404', function () {
+    return view('404');
+});
+
 Route::get('/lowongan-pekerjaan/job', function () {
     return view('jobs');
 });
