@@ -11,6 +11,7 @@
 }
 body{
     font-family: var(--mainFont);
+    overflow-x: hidden;
 }
 .heading{
     font-family: var(--headingFont);

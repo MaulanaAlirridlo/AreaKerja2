@@ -28,3 +28,8 @@
     color: white!important;
     background-color: #fd590d !important;
 }
+
+.img-rounded{
+    width: 250px;
+    border-radius: 60px 60px 60px 60px !important;
+}

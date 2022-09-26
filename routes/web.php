@@ -3,6 +3,7 @@
 use App\Http\Controllers\DaftarkandidatController;
 use App\Http\Controllers\PasangiklanController;
 use App\Http\Controllers\TentangkamiController;
+use App\Http\Controllers\TipskerjaController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -39,9 +40,10 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/konten2', [App\Http\Controllers\Konten2Controller::class, 'index'])->name('konten2');
 
 Route::get('/listloker', [App\Http\Controllers\ListlokerController::class, 'index'])->name('listloker');
-Route::get('/pasangiklan', [PasangiklanController::class, 'index'])->name('pasangiklan');
+Route::get('/pasanglowongan', [PasangiklanController::class, 'index'])->name('pasanglowongan');
 Route::get('/daftarkandidat', [DaftarkandidatController::class, 'index'])->name('daftarkandidat');
 Route::get('/tentangkami', [TentangkamiController::class, 'index'])->name('tentangkami');
 
 Route::get('/recruitment', [App\Http\Controllers\RecruitmentController::class, 'index'])->name('recruitment');
 Route::get('/recruitmentprofil', [App\Http\Controllers\RecruitmentprofilController::class, 'index'])->name('recruitmentprofil');
+Route::get('/tipskerja', [TipskerjaController::class, 'index'])->name('tipskerja');
