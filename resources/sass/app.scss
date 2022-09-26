@@ -6,11 +6,11 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-<<<<<<< Updated upstream
-=======
 
+// @import '~mdb-ui-kit/css/mdb.min.css';
 :root {
   --main: #fe7b54;
+  --main-shadow: #fe7c54aa;
   --main-hover: #df5c34;
 }
 
@@ -21,4 +21,11 @@
 .pb-7 {
   padding-bottom: 4rem;
 }
->>>>>>> Stashed changes
+.w-80px {
+  width: 80px;
+}
+.btn-areakerja {
+  background-color: var(--main);
+  color: white;
+  font-weight: bold;
+}

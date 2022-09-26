@@ -1,0 +1,250 @@
+:root{
+    /* color */
+    --primaryColor : #ff6e07;
+    --secondaryColor : #918181;
+    --mainFont : 'Open Sans', sans-serif;
+    --headingFont :'Merriweather Sans', sans-serif;
+
+}
+*{
+    box-sizing: border-box !important;
+}
+body{
+    font-family: var(--mainFont);
+    overflow-x: hidden;
+}
+.heading{
+    font-family: var(--headingFont);
+    font-size: 36px;
+    font-weight: 700;
+}
+.subheadingsatu {
+    font-weight: 700;
+
+}
+.subheadingdua {
+    font-weight: 700;
+    color: var(--primaryColor);
+}
+.navbar-brand{
+    font-family: var(--headingFont);
+    font-weight: 900;
+
+}
+.navbar{
+    background-color: white;
+}
+.fixed-top {
+    position: relative;
+}
+.navbar-brand span{
+    color: var(--secondaryColor);
+}
+.nav-link{
+    font-family: var(--headingFont);
+}
+.nav-link.active{
+    font-weight: 700;
+    color: var(--primaryColor) !important;
+}
+.nav-link:hover{
+    color: var(--primaryColor) !important;
+}
+#garis{
+    position: absolute;
+    width: 85%;
+}
+
+/* .......................................Card CSS......................................... */
+  .containerpasang {
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    /* grid-template-columns: repeat(16,1fr); */
+    margin: 5px 200px;
+    gap:50px;
+    position: relative;
+  }
+  
+  .cardpasang {
+    width: 300px;
+    height: 600px;
+    grid-column: span 8;
+    margin: 10px 0;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 10px 10px rgba(0,0,0,.1);
+  
+  }
+
+  .containerbanner {
+    padding: 40px;
+    margin: auto;
+    /* grid-template-columns: repeat(16,1fr); */
+    gap:50px;
+    padding-bottom: 10px;
+    position: relative;
+  }
+
+  .cardbanner {
+    width: 500px;
+    height: 150px;
+    margin: 10px 0;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 30px 30px rgba(0,0,0,.1);
+    margin: auto  ;
+  
+  }
+
+  .cardcarapasang {
+    width: 400px;
+    height: 200px;
+    margin: 10px 0;
+    border-radius: 30px;
+    position: relative;
+    box-shadow: 0 30px 30px rgba(0,0,0,.1);
+    margin: auto  ;
+  
+  }
+  
+  .head-cardpasang{
+    padding: 20px 15px;
+    text-align: center;
+  }
+
+  .head-cardpasang h1{
+    margin: 0; 
+    font-size: 30px; 
+    text-align: center;
+    font-family: var(--headingFont);
+  }
+  
+  .body-cardpasang {
+    padding: 10px 15px;
+  }
+  
+  .body-cardpasang h1 {
+    margin: 0; 
+    font-size: 14px; 
+    text-align: center;
+    font-family: var(--headingFont);
+  
+  }
+
+  .body-cardpasang p {
+    margin: 10px; 
+    font-size: 14px; 
+    text-align: center;
+  
+  }
+  
+  .body-cardpasang svg {
+    width: 31px;
+    position: absolute;
+    bottom: 7px;
+    right: 20px;
+  }
+
+  .footer-cardpasang{
+    padding: 0px;
+    text-align: center;
+  }
+
+  .footer-cardpasang h1{
+    margin: 0; 
+    font-size: 25px; 
+    text-align: center;
+    font-family: var(--headingFont);
+  }
+
+  .footer-cardpasang p {
+    margin: 10px; 
+    font-size: 14px; 
+    text-align: center;
+  
+  }
+
+  .head-cardcarapasang img {
+    width: 100px;
+    height: 80px;
+    
+  }
+
+  .head-cardcarapasang{
+    padding: 0px;
+    text-align: center;
+  }
+
+  .head-cardcarapasang h1{
+    margin: 0; 
+    font-size: 30px; 
+    text-align: center;
+    font-family: var(--headingFont);
+  }
+  
+  .body-cardcarapasang {
+    padding: 10px 15px;
+  }
+  
+  .body-cardcarapasang h1 {
+    margin: 0; 
+    font-size: 12px; 
+    text-align: center;
+    font-family: var(--headingFont);
+  
+  }
+
+  .body-cardcarapasang p {
+    margin: 10px; 
+    font-size: 14px; 
+    text-align: center;
+  
+  }
+  
+  .body-cardcarapasang svg {
+    width: 31px;
+    position: absolute;
+    bottom: 7px;
+    right: 20px;
+  }
+
+  .footer-cardcarapasang{
+    padding: 0px;
+    text-align: center;
+  }
+
+  .footer-cardcarapasang h1{
+    margin: 0; 
+    font-size: 25px; 
+    text-align: center;
+    font-family: var(--headingFont);
+  }
+
+  .footer-cardcarapasang p {
+    margin: 10px; 
+    font-size: 14px; 
+    text-align: center;
+  
+  }
+  
+  
+  @media screen and (min-width: 550px) {
+    .cardpasang {
+    grid-column: span 4;
+  
+  }
+}
+  
+  
+  @media screen and (min-width: 760px) {
+  
+    /* .card {
+    width: 350px;
+    margin: 0 10px;
+  } */
+}
+  
+  @media screen and (min-width: 960px) {
+  
+  }
