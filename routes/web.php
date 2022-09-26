@@ -41,6 +41,9 @@ Route::get('/pasanglowongan', [PasangiklanController::class, 'index'])->name('pa
 Route::get('/daftarkandidat', [DaftarkandidatController::class, 'index'])->name('daftarkandidat');
 Route::get('/tentangkami', [TentangkamiController::class, 'index'])->name('tentangkami');
 
+Route::get('/kontak', function () {
+    return view('kontak');
+});
 Route::get('/recruitment', [App\Http\Controllers\RecruitmentController::class, 'index'])->name('recruitment');
 Route::get('/recruitmentprofil', [App\Http\Controllers\RecruitmentprofilController::class, 'index'])->name('recruitmentprofil');
 Route::get('/daftar', [App\Http\Controllers\DaftarController::class, 'index'])->name('daftar');
