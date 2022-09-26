@@ -1,7 +1,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 py-4 text-start">
-                <h3 class="display-5 fw-bold">Kategori Lowongan Kerja</h3>
+                <h3 class="display-6 fw-bold">Kategori Lowongan Kerja</h3>
             </div>
         </div>
 
@@ -88,7 +88,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 py-4 text-start">
-                <h3 class="display-5 fw-bold">Lokasi Lowongan Kerja</h3>
+                <h3 class="display-6 fw-bold">Lokasi Lowongan Kerja</h3>
                 <div class="row align-items-center">
                     <div class="col">
                         <p class="card-text">check our latest article to get meaningfull content or tips for shopping</p>
