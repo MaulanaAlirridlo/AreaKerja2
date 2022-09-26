@@ -36,6 +36,8 @@
   </div>
 </section>
 
+@include('layouts.tentang')
+
   <section class="rekomendasi-lowongan text-center">
     <div class="container">
       <h1 class="fw-bold">Rekomendasi Lowongan</h1>

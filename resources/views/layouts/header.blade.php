@@ -9,7 +9,7 @@
                 <div class="navbar-nav me-5">
                     <a class="nav-link active me-5" href="#">Home</a>
                     <a class="nav-link me-4" href="#">Tips Kerja</a>
-                    <a class="nav-link me-4 btn border" href="#">Daftar Sebagai Kandidat</a>
+                    <a class="nav-link me-4 btn border" href="#" data-bs-target="#daftarkandidatModal" data-bs-toggle="modal">Daftar Sebagai Kandidat</a>
                     <a class="nav-link me-4 btn border" href="#">Pasang Lowongan</a>
                     <a class="nav-link me-4 btn border" style="background-color:#ff6e07; color:white;" href="#">Pasang Lowongan</a>
                     <a class="nav-link mt-2 mt-lg-0 me-lg-4 btn border header-hapus" style="background-color:#ff6e07; color:white;" href="#">Recrutment</a>
