@@ -4,7 +4,7 @@
             <a class="navbar-brand" href="/"><img src="{{asset('img/logo.png')}}" alt="logo area kerja" style="width:80px;"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-            </button>p
+            </button>
             <div class="collapse navbar-collapse d-flex justify-content-end align-items-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav me-5">
                     <a class="nav-link active me-5" href="/">Home</a>
