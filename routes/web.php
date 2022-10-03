@@ -51,6 +51,6 @@ Route::get('/tipskerja', [TipskerjaController::class, 'index'])->name('tipskerja
 
 Route::prefix('finance')->group(function () {
     Route::get('/', function () {
-        return view('finance.index');
+        return view('finance.dashboard');
     });
 });
