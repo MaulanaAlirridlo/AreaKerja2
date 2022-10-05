@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DaftarkandidatController;
 use App\Http\Controllers\PasangiklanController;
+use App\Http\Controllers\RiwayatTransaksiController;
 use App\Http\Controllers\TentangkamiController;
 use App\Http\Controllers\TipskerjaController;
 use Illuminate\Support\Facades\Route;
@@ -39,3 +40,13 @@ Route::get('/tentangkami', [TentangkamiController::class, 'index'])->name('tenta
 Route::get('/recruitment', [App\Http\Controllers\RecruitmentController::class, 'index'])->name('recruitment');
 Route::get('/recruitmentprofil', [App\Http\Controllers\RecruitmentprofilController::class, 'index'])->name('recruitmentprofil');
 Route::get('/tipskerja', [TipskerjaController::class, 'index'])->name('tipskerja');
+<<<<<<< Updated upstream
+=======
+Route::get('/riwayattransaksi',[RiwayatTransaksiController::class,'index'])->name('riwayattransaksi');
+
+Route::prefix('finance')->group(function () {
+    Route::get('/', function () {
+        return view('finance.dashboard');
+    });
+});
+>>>>>>> Stashed changes
