@@ -1,6 +1,7 @@
 @extends('finance.index')
 
 @section('content')
+
 <div class="container">
     <div class="row">
         <div class="col-5 mt-3">
@@ -136,7 +137,8 @@
                         <p class="" style="color: orange;">Read More</p>
                     </div>
                 </div>
-                <button type="button" class="btn mt-4" style="background: orange; margin-left: auto; margin-right: auto; width: 120px;">View More <i class="fa-solid fa-arrow-right"></i></button>
+                <button type="button" class="btn mt-4" data-toggle="modal" data-target="#exampleModal" style="background: orange; margin-left: auto; margin-right: auto; width: 120px;">View More <i class="fa-solid fa-arrow-right"></i></button>
+                @include('finance.partials.activity')
             </div>
         </div>
     </div>

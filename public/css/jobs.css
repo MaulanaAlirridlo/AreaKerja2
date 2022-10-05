@@ -1,0 +1,18 @@
+.jobs .sampul{
+  max-height: 488px;
+}
+
+.jobs .profil {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0px;
+  left: 117px;
+  background-color: white;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--main-shadow);
+  color: white;
+}

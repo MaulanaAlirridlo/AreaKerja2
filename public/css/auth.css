@@ -1,0 +1,59 @@
+.card {
+  width: 100%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.card a {
+  color: var(--main);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.card .submit {
+  background-color: var(--main);
+  border: none;
+}
+
+.card .submit:hover {
+  background-color: var(--main-hover) !important;
+}
+
+.card label {
+  background-color: var(--bs-body-bg);
+  position: absolute;
+  top: -9px;
+  left: 27px;
+  font-size: 12px;
+  margin: 0;
+  padding: 0 5px;
+}
+
+.card input:focus {
+  border-color: var(--main);
+  box-shadow: 0 0 0 0.15rem var(--main-shadow);
+}
+
+.card-header h2 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  height: 100%;
+}
+
+.card-body .account button {
+  color: white;
+  font-weight: bold;
+}
+
+.w-82 {
+  width: 82%;
+}
+
+.w-76 {
+  width: 76%;
+}
+
+.w-85 {
+  width: 85%;
+}

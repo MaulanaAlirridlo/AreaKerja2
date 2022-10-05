@@ -1,8 +1,8 @@
 <div class="container">
     <div class="row cardinfo">
-        <div class="card posisi" style="background-color:#FFF0E2 ;">
+        <div class="card w-100 posisi" style="background-color:#FFF0E2 ;">
             <div class="card-body posisi">
-                <h3 class="fw-bold ms-5">Berlangganan untuk mendapatkan informasi</h3>
+                <h3 class="fw-bold ms-5 mt-3">Berlangganan untuk mendapatkan informasi</h3>
                 <h3 class="fw-bold ms-5 ">dan lowongan kerja terbaru
                     <div class="card-body search float-end">
                         <div class="input-group mb-3">
