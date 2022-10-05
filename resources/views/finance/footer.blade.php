@@ -2,8 +2,6 @@
     <script src="{{asset('vendors/popper.js/dist/umd/popper.min.js')}}"></script>
     <script src="{{asset('vendors/bootstrap/dist/js/bootstrap.min.js')}}"></script>
     <script src="{{asset('js/main.js')}}"></script>
-    <script src="{{asset('css/dashboardfinance.css')}}"></script>
-
     <script src="{{asset('vendors/chart.js/dist/Chart.bundle.min.js')}}"></script>
     <script src="{{asset('js/widgets.js')}}"></script>
     <script src="{{asset('vendors/jqvmap/dist/jquery.vmap.min.js')}}"></script>

@@ -138,10 +138,10 @@
                     </div>
                 </div>
                 <button type="button" class="btn mt-4" data-toggle="modal" data-target="#exampleModal" style="background: orange; margin-left: auto; margin-right: auto; width: 120px;">View More <i class="fa-solid fa-arrow-right"></i></button>
-                @include('finance.partials.activity')
             </div>
         </div>
     </div>
+    @include('finance.partials.activity')
 
     <div class="row mt-3">
         <div class="col">
