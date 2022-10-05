@@ -49,6 +49,8 @@ Route::get('/recruitmentprofil', [App\Http\Controllers\RecruitmentprofilControll
 Route::get('/daftar', [App\Http\Controllers\DaftarController::class, 'index'])->name('daftar');
 Route::get('/tipskerja', [TipskerjaController::class, 'index'])->name('tipskerja');
 
+Route::get('/riwayattransaksi',[RiwayatTransaksiController::class,'index'])->name('riwayattransaksi');
+
 Route::prefix('finance')->group(function () {
     Route::get('/', function () {
         return view('finance.dashboard');
