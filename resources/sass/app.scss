@@ -7,19 +7,7 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-:root {
-  --main: #fe7b54;
-  --main-hover: #df5c34;
-}
-
-.pb-6 {
-  padding-bottom: 3.5rem;
-}
-
-.pb-7 {
-  padding-bottom: 4rem;
-}
-
+// @import '~mdb-ui-kit/css/mdb.min.css';
 :root {
   --main: #fe7b54;
   --main-shadow: #fe7c54aa;
@@ -35,4 +23,9 @@
 }
 .w-80px {
   width: 80px;
+}
+.btn-areakerja {
+  background-color: var(--main);
+  color: white;
+  font-weight: bold;
 }

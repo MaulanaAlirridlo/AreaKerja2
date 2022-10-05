@@ -1,0 +1,33 @@
+:root {
+  --main: #fe7b54;
+  --main-shadow: #fe7c54aa;
+  --main-hover: #df5c34;
+}
+
+.bg-darker-light {
+  background-color: #d6d6d6!important;
+}
+
+.background-main {
+  background-color: var(--main);
+  color: white;
+}
+
+.activity {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.activity .modal-dialog {
+  top: 45%;
+  transform: translate(0, -50%) !important;
+  max-width: 80%;
+}
+
+.page-item .page-link {
+  color: black;
+}
+
+.page-item.active .page-link {
+  background-color: var(--main);
+  border-color: var(--main);
+}

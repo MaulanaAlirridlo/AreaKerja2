@@ -23,12 +23,8 @@
     <link rel="stylesheet" href="{{asset('vendors/selectFX/css/cs-skin-elastic.css')}}">
     <link rel="stylesheet" href="{{asset('vendors/jqvmap/dist/jqvmap.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/riwayattransaksi.css')}}">
-
-
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
-
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="{{asset('css/activity.css')}}">
 </head>
 
 <body>
