@@ -16,7 +16,7 @@
 
   <section class="container tips-kerja mt-5">
     <div class="text-center">
-      <h1 class="judul">Tips Kerja</h1>
+      <h1 class="judul">Tips Kerja</h1>  
       <p class="sub-judul">Pelajari Tips-Tips Kerja yang Telah Kami Buat untuk Anda</p>
       <div class="row">
         @for ($i = 0; $i < 8; $i++)
