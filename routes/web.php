@@ -50,7 +50,7 @@ Route::get('/recruitment', [App\Http\Controllers\RecruitmentController::class, '
 Route::get('/recruitmentprofil', [App\Http\Controllers\RecruitmentprofilController::class, 'index'])->name('recruitmentprofil');
 Route::get('/daftar', [App\Http\Controllers\DaftarController::class, 'index'])->name('daftar');
 Route::get('/tipskerja', [TipskerjaController::class, 'index'])->name('tipskerja');
-Route::get('/riwayattransaksi',[RiwayatTransaksiController::class,'index'])->name('riwayattransaksi');
+Route::Route::get('/riwayattransaksi', [RiwayatTransaksiController::class, 'index'])->name('riwayattransaksi');
 
 Route::prefix('finance')->group(function () {
     Route::get('/', function () {
