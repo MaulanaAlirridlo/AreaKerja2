@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\DaftarkandidatController;
+use App\Http\Controllers\LockScreenController;
 use App\Http\Controllers\PasangiklanController;
 use App\Http\Controllers\TentangkamiController;
 use App\Http\Controllers\TipskerjaController;
@@ -53,4 +54,5 @@ Route::prefix('finance')->group(function () {
     Route::get('/', function () {
         return view('finance.dashboard');
     });
+    Route::get('/lockscreen', [LockScreenController::class, 'index'])->name('lockscreen');
 });
