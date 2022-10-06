@@ -1,4 +1,4 @@
-@extends('finance.dashboard')
+@extends('finance.index')
 
 @section('content')
 <div class="content mt-3">
