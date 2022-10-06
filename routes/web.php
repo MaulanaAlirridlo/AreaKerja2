@@ -3,6 +3,7 @@
 use App\Http\Controllers\DaftarkandidatController;
 use App\Http\Controllers\LockScreenController;
 use App\Http\Controllers\PasangiklanController;
+use App\Http\Controllers\RiwayatTransaksiController;
 use App\Http\Controllers\TentangkamiController;
 use App\Http\Controllers\TipskerjaController;
 use Illuminate\Support\Facades\Route;
@@ -49,6 +50,7 @@ Route::get('/recruitment', [App\Http\Controllers\RecruitmentController::class, '
 Route::get('/recruitmentprofil', [App\Http\Controllers\RecruitmentprofilController::class, 'index'])->name('recruitmentprofil');
 Route::get('/daftar', [App\Http\Controllers\DaftarController::class, 'index'])->name('daftar');
 Route::get('/tipskerja', [TipskerjaController::class, 'index'])->name('tipskerja');
+Route::get('/riwayattransaksi',[RiwayatTransaksiController::class,'index'])->name('riwayattransaksi');
 
 Route::prefix('finance')->group(function () {
     Route::get('/', function () {
