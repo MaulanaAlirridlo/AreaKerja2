@@ -38,4 +38,3 @@
     <h6 class="w-100" style="width: 18rem; border-top-left-radius:18px; border-top-right-radius:18px; top:20%;">© 2022
         Areakerja </h6>
 </div>
-<div></div>

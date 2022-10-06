@@ -29,13 +29,16 @@
                     <div class="card-body">
                         <div class="account row mt-4 mb-3">
                             <div class="col">
-                                <button type="button" class="btn w-85 btn-dark"><i class="fa-brands me-1 fa-apple"></i> Apple</button>
+                                <button type="button" class="btn w-85 btn-dark"><i class="fa-brands me-1 fa-apple"></i>
+                                    Apple</button>
                             </div>
                             <div class="col">
-                                <button type="button" class="btn w-85 btn-warning d-block mx-auto"><i class="fa-brands me-1 fa-google"></i> Google</button>
+                                <button type="button" class="btn w-85 btn-warning d-block mx-auto"><i
+                                        class="fa-brands me-1 fa-google"></i> Google</button>
                             </div>
                             <div class="col">
-                                <button type="button" class="btn w-85 btn-primary float-end"><i class="fa-brands me-1 fa-facebook"></i> Facebook</button>
+                                <button type="button" class="btn w-85 btn-primary float-end"><i
+                                        class="fa-brands me-1 fa-facebook"></i> Facebook</button>
                             </div>
                         </div>
 
@@ -64,8 +67,8 @@
                                 <div class="col position-relative">
                                     <label for="password" class="col-form-label">{{ __('Password') }}</label>
                                     <input id="password" type="password"
-                                        class="form-control @error('password') is-invalid @enderror" name="password" required
-                                        autocomplete="current-password" placeholder="Enter password">
+                                        class="form-control @error('password') is-invalid @enderror" name="password"
+                                        required autocomplete="current-password" placeholder="Enter password">
                                 </div>
 
                                 @error('password')
@@ -85,7 +88,6 @@
                                 <button type="submit" class="btn mt-4 w-50 submit">
                                     {{ __('Login') }}
                                 </button>
-
                             </div>
                         </form>
                     </div>

@@ -52,6 +52,7 @@ Route::get('/daftar', [App\Http\Controllers\DaftarController::class, 'index'])->
 Route::get('/tipskerja', [TipskerjaController::class, 'index'])->name('tipskerja');
 Route::get('/riwayattransaksi', [RiwayatTransaksiController::class, 'index'])->name('riwayattransaksi');
 
+
 Route::prefix('finance')->group(function () {
     Route::get('/', function () {
         return view('finance.dashboard');

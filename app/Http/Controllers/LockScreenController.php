@@ -81,8 +81,4 @@ class LockScreenController extends Controller
     {
         //
     }
-    public function warp($slug)
-    {
-        //
-    }
 }
