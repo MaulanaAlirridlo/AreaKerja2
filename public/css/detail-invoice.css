@@ -1,0 +1,22 @@
+.invoice-wrapper {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+.invoice img {
+  width: 40px;
+}
+.w-10 {
+  width: 10%;
+}
+.w-15 {
+  width: 15%;
+}
+.w-30 {
+  width: 30%;
+}
+.date {
+  bottom: 0;
+  position: absolute;
+}

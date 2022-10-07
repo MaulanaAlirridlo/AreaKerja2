@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="{{asset('css/dashboardfinance.css')}}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="{{ asset('css/activity.css') }}">
+    @yield('css')
 </head>
 
 <body>

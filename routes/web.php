@@ -58,4 +58,7 @@ Route::prefix('finance')->group(function () {
         return view('finance.dashboard');
     });
     Route::get('/lockscreen', [LockScreenController::class, 'index'])->name('lockscreen');
+    Route::get('/detail-invoice', function () {
+        return view('finance.detail-invoice');
+    });
 });
